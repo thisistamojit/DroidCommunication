@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="devspace_DIRTModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="devspace_DIRTModelStoreContainer">
+    <EntitySet Name="DroidTracker" EntityType="devspace_DIRTModel.Store.DroidTracker" store:Type="Tables" Schema="devspace_dirtadmin" />
+  </EntityContainer>
+  <EntityType Name="DroidTracker">
+    <Key>
+      <PropertyRef Name="TrackingId" />
+    </Key>
+    <Property Name="TrackingId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Dataval" Type="varchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+</Schema>

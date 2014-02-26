@@ -1,0 +1,10 @@
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\DroidDal.dll.config
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\DroidDal.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\DroidDal.pdb
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\DroidModel.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\EntityFramework.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\DroidModel.pdb
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\bin\Debug\EntityFramework.xml
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\obj\Debug\DroidDal.csprojResolveAssemblyReference.cache
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\obj\Debug\DroidDal.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidDal\obj\Debug\DroidDal.pdb

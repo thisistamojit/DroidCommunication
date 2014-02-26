@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="devspace_DIRTModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="devspace_DIRTModelStoreContainer">
+          <EntitySet Name="DroidTracker" EntityType="devspace_DIRTModel.Store.DroidTracker" store:Type="Tables" Schema="devspace_dirtadmin" />
+        </EntityContainer>
+        <EntityType Name="DroidTracker">
+          <Key>
+            <PropertyRef Name="TrackingId" />
+          </Key>
+          <Property Name="TrackingId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TotalNoofPassenger" Type="int" Nullable="false" />
+          <Property Name="NoofPassengerDeparted" Type="int" Nullable="false" />
+          <Property Name="NoofPassengerarrived" Type="int" Nullable="false" />
+          <Property Name="FromBuilding" Type="varchar" Nullable="false" MaxLength="2" />
+          <Property Name="ToBuilding" Type="varchar" Nullable="false" MaxLength="2" />
+          <Property Name="DateofJourney" Type="varchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="devspace_DIRTModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="devspace_DIRTEntities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="DroidTrackers" EntityType="devspace_DIRTModel.DroidTracker" />
+        </EntityContainer>
+        <EntityType Name="DroidTracker">
+          <Key>
+            <PropertyRef Name="TrackingId" />
+          </Key>
+          <Property Name="TrackingId" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TotalNoofPassenger" Type="Int32" Nullable="false" />
+          <Property Name="NoofPassengerDeparted" Type="Int32" Nullable="false" />
+          <Property Name="NoofPassengerarrived" Type="Int32" Nullable="false" />
+          <Property Name="FromBuilding" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="ToBuilding" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="DateofJourney" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="devspace_DIRTModelStoreContainer" CdmEntityContainer="devspace_DIRTEntities1">
+          <EntitySetMapping Name="DroidTrackers">
+            <EntityTypeMapping TypeName="devspace_DIRTModel.DroidTracker">
+              <MappingFragment StoreEntitySet="DroidTracker">
+                <ScalarProperty Name="TrackingId" ColumnName="TrackingId" />
+                <ScalarProperty Name="TotalNoofPassenger" ColumnName="TotalNoofPassenger" />
+                <ScalarProperty Name="NoofPassengerDeparted" ColumnName="NoofPassengerDeparted" />
+                <ScalarProperty Name="NoofPassengerarrived" ColumnName="NoofPassengerarrived" />
+                <ScalarProperty Name="FromBuilding" ColumnName="FromBuilding" />
+                <ScalarProperty Name="ToBuilding" ColumnName="ToBuilding" />
+                <ScalarProperty Name="DateofJourney" ColumnName="DateofJourney" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

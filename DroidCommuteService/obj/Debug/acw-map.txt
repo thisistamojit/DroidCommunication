@@ -1,0 +1,2 @@
+DroidCommuteService.Activity1;droidcommuteservice.Activity1
+DroidCommuteService.SecondActivity;droidcommuteservice.SecondActivity

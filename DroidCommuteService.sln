@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidCommuteService", "DroidCommuteService\DroidCommuteService.csproj", "{EAF87AA5-0600-4335-AB8A-060D60BF59D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidDal", "DroidDal\DroidDal.csproj", "{78414BC0-0F76-4FF5-8F4E-3B18B32C5192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidWebApi", "DroidWebApi\DroidWebApi.csproj", "{5F698B33-9D26-4191-B024-D0F22DE77E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{2BE044E0-8A80-4897-8E0A-B1D785B5F1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidModel", "DroidModel\DroidModel.csproj", "{3A0CD7F4-0EEA-425C-B42E-C3329C33A42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF87AA5-0600-4335-AB8A-060D60BF59D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{78414BC0-0F76-4FF5-8F4E-3B18B32C5192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78414BC0-0F76-4FF5-8F4E-3B18B32C5192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78414BC0-0F76-4FF5-8F4E-3B18B32C5192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78414BC0-0F76-4FF5-8F4E-3B18B32C5192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F698B33-9D26-4191-B024-D0F22DE77E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F698B33-9D26-4191-B024-D0F22DE77E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F698B33-9D26-4191-B024-D0F22DE77E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F698B33-9D26-4191-B024-D0F22DE77E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE044E0-8A80-4897-8E0A-B1D785B5F1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE044E0-8A80-4897-8E0A-B1D785B5F1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE044E0-8A80-4897-8E0A-B1D785B5F1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE044E0-8A80-4897-8E0A-B1D785B5F1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0CD7F4-0EEA-425C-B42E-C3329C33A42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0CD7F4-0EEA-425C-B42E-C3329C33A42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0CD7F4-0EEA-425C-B42E-C3329C33A42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0CD7F4-0EEA-425C-B42E-C3329C33A42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

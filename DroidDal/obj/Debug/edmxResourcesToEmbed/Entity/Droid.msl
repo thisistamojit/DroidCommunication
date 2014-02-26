@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="devspace_DIRTModelStoreContainer" CdmEntityContainer="devspace_DIRTEntities1">
+    <EntitySetMapping Name="DroidTrackers">
+      <EntityTypeMapping TypeName="devspace_DIRTModel.DroidTracker">
+        <MappingFragment StoreEntitySet="DroidTracker">
+          <ScalarProperty Name="TrackingId" ColumnName="TrackingId" />
+          <ScalarProperty Name="TotalNoofPassenger" ColumnName="TotalNoofPassenger" />
+          <ScalarProperty Name="NoofPassengerDeparted" ColumnName="NoofPassengerDeparted" />
+          <ScalarProperty Name="NoofPassengerarrived" ColumnName="NoofPassengerarrived" />
+          <ScalarProperty Name="FromBuilding" ColumnName="FromBuilding" />
+          <ScalarProperty Name="ToBuilding" ColumnName="ToBuilding" />
+          <ScalarProperty Name="DateofJourney" ColumnName="DateofJourney" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

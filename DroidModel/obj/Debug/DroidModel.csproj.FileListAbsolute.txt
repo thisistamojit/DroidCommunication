@@ -1,0 +1,4 @@
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidModel\bin\Debug\DroidModel.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidModel\bin\Debug\DroidModel.pdb
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidModel\obj\Debug\DroidModel.dll
+C:\Users\Tamojit\Documents\Visual Studio 2012\Projects\DroidCommuteService\DroidModel\obj\Debug\DroidModel.pdb

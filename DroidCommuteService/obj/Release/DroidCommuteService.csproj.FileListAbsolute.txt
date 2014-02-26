@@ -1,0 +1,12 @@
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\bin\Release\DroidCommuteService.dll
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\bin\Release\DroidCommuteService.pdb
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\bin\Release\DroidCommuteService.DroidCommuteService.apk
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\bin\Release\DroidCommuteService.DroidCommuteService-Signed.apk
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\DroidCommuteService.dll
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\DroidCommuteService.pdb
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\android\bin\DroidCommuteService.DroidCommuteService.apk
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\res\layout\main.xml
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\res\values\strings.xml
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\res\drawable\icon.png
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\R.cs.flag
+c:\users\tamojit\documents\visual studio 2012\Projects\DroidCommuteService\DroidCommuteService\obj\Release\uploadflags.txt
